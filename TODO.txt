@@ -1,0 +1,6 @@
+1) make a modal with form fields when you click on memes
+2) Post requests to server
+3) make a service on an external server to accept requests
+3b) validate requests and email help desk with request to unblock
+4) oauth for posting requests to server for safety
+5)
