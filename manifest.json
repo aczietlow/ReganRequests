@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "ReganRequests",
+  "version": "1.0",
+  "homepage_url": "https://github.com/aczietlow/ReganRequests",
+
+  "description": "Makes requests to IT to tear down that (fire)wall",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+  "web_accessible_resources": [
+    "imgs/regan.png"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["reganrequests.js"]
+    }
+  ]
+
+}
