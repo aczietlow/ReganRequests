@@ -13,6 +13,10 @@
   "web_accessible_resources": [
     "imgs/regan.png"
   ],
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
 
   "content_scripts": [
     {
