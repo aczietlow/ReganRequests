@@ -6,6 +6,7 @@ function saveOptions(e) {
     e.preventDefault();
 }
 
+// @TODO need to fix storage api to save preferences.
 function restoreOptions() {
     var storageItem = browser.storage.managed.get('it_email');
     storageItem.then((res) => {
